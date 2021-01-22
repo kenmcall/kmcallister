@@ -11,9 +11,6 @@ sections:
   label: Homepage Data
 - type: heading
   label: Blog Post
-- type: document
-  path: exampleSite/content/blog/_index.md
-  label: Blog Page
 - type: directory
   path: exampleSite/content/blog
   label: Blog Post
@@ -22,6 +19,9 @@ sections:
   exclude: _index.md
   templates:
   - post
+- type: document
+  path: exampleSite/content/blog/_index.md
+  label: Blog Page
 - type: heading
   label: Others Page
 - type: document
